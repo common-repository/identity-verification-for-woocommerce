@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#real-id-mount {
+  font-size: 15px;
+}
+
+/**
+ * Apply a blur to sandboxed images
+ */
+.blur {
+  /* Add the blur effect */
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
